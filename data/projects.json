@@ -3,22 +3,43 @@
       {
          "name":"Scrutin.app",
          "url":"https://scrutin.app",
-         "desc":"A secure e-voting app based on [Belenios](https://www.belenios.org/)"
+         "desc":"A secure e-voting app based on [Belenios](https://www.belenios.org/). [(source)](https://github.com/mjal/scrutin)"
       },
+
       {
          "name":"Sirona",
-         "url":"https://github.com/mjal/sirona",
-         "desc":"Yet another tool for [Belenios](https://www.belenios.org/) elections"
+         "url":"https://mjal.github.io/sirona",
+         "desc":"Yet another tool for [Belenios](https://www.belenios.org/) elections. [(source)](https://github.com/mjal/sirona)"
       },
+
       {
-         "name":"Safebook blog",
-         "url":"https://blog.safebook.fr/cryptographic-protocols/",
-         "desc":"Random list of ambitous projects"
+         "name":"Safebook",
+         "url":"https://account.safebook.fr/",
+         "desc":"An experimental social network [(v1)](https://legacy.safebook.fr/) [(v2)](https://account.safebook.fr/) [(writings)](https://blog.safebook.fr/cryptographic-protocols/) [(2)](https://www.safebook.fr/)"
       },
       {
          "name":"Safebook zero",
          "url":"https://blog.safebook.fr/cryptographic-protocols/",
          "desc":"no-metadata messaging inspired by [bitmessage](https://en.wikipedia.org/wiki/Bitmessage). [(source)](https://github.com/safebook/zero)"
+      },
+
+      {
+         "name":"Lifecraft",
+         "url":"https://mjal.gitlab.io/lifecraft/",
+         "desc":"OCaml (BuckleScript) frontend for Conway game of life. [(demo)](https://mjal.gitlab.io/lifecraft/) [(source)](https://github.com/mjal/lifecraft) _(note: click on squares to activate. press space for next state)_"
+      },
+
+
+      {
+         "name":"Fractal explorer",
+         "url":"https://mjal.gitlab.io/lifecraft/",
+         "desc":"Web exporer of fractals of the Julia set"
+      },
+
+      {
+         "name":"ami",
+         "url":"https://mjal.github.io/ami3d/",
+         "desc":"a homepage and search frontend [(v1)](https://mjal.github.io/ami/) [(v2)](https://mjal.github.io/ami3d/) [(v3)](https://mjal.github.io/ami3/)"
       }
    ]
 }
