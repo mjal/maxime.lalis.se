@@ -3,7 +3,7 @@
       {
          "name":"Scrutin.app",
          "url":"https://scrutin.app",
-         "desc":"A secure e-voting app based on [Belenios](https://www.belenios.org/). [(source)](https://github.com/mjal/scrutin)"
+         "desc":"A secure e-voting app based on [Belenios](https://www.belenios.org/). [(source)](https://github.com/mjal/scrutin) [(slides)](/scrutin-slides.pdf)"
       },
 
       {
