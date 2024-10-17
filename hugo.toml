@@ -3,3 +3,6 @@ languageCode = 'en-us'
 title = 'Maxime Lalisse'
 
 theme = "cactus"
+
+[[deployment.targets]]
+ URL = "s3://bucket?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage"
