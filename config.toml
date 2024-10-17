@@ -6,7 +6,6 @@ theme = "cactus"
 
 [params]
   colortheme = "white" # dark, light, white, or classic
-  description = "o/"
 
 [[menu.main]]
 name = "Email"
