@@ -6,21 +6,29 @@ theme = "cactus"
 
 [params]
   colortheme = "white" # dark, light, white, or classic
+  mainSection = "posts"
+  mainSectionTitle = "Blog"
+  showAllPostsOnHomePage = true
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 1
 
 [[menu.main]]
 name = "Email"
 url = "mailto:maxime@lalis.se"
-weight = 1
+weight = 2
 
 [[menu.main]]
 name = "Github"
 url = "https://github.com/mjal"
-weight = 2
+weight = 3
 
 [[menu.main]]
 name = "CV"
 url = "/cv.pdf"
-weight = 3
+weight = 4
 
 [[deployment.targets]]
   URL = "s3://bucket?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage"
