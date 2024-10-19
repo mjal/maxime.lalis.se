@@ -80,7 +80,7 @@ let event = {
 }
 ```
 
-It could also model proxy voting ("procuration" in french)
+It could also model proxy voting ("procuration" in french).
 
 ```js
 // To distribute credentials to voter
