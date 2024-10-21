@@ -25,5 +25,10 @@ name = "Github"
 url = "https://github.com/mjal"
 weight = 3
 
+[[menu.main]]
+name = "cv"
+url = "/cv.pdf"
+weight = 4
+
 [[deployment.targets]]
   URL = "s3://bucket?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage"
