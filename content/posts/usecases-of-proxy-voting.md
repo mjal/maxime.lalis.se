@@ -11,6 +11,8 @@ In the case of e-voting systems with verifiable eligibility, the voter list is o
 
 In such system, an event `Delegate(Alice,Bob)`, signed by Alice, would means that Alice is giving his voting power to Bob.
 
+*It might sound wrong because it would make vote selling trivial. However, there are interesting use cases.*
+
 ## Decentralized voter list management
 
 Instead of one large credential authority (CA),

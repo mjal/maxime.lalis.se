@@ -1,6 +1,6 @@
 +++
 title = 'Bitmessage'
-date = 2024-10-23T12:53:27+02:00
+date = 2024-10-03T12:53:27+02:00
 +++
 
 [Bitmessage](https://en.wikipedia.org/wiki/Bitmessage) est un logiciel de messagerie minimisant les métadonnées.
