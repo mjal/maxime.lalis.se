@@ -3,7 +3,7 @@ title = 'Usecases of proxy voting in e-voting'
 date = 2024-10-17T17:09:00+02:00
 +++
 
-## Proxy voting
+# Proxy voting
 
 Proxy voting is a mechanism where a voter can delegate their voting power.
 
@@ -13,7 +13,7 @@ In such system, an event `Delegate(Alice,Bob)`, signed by Alice, would means tha
 
 *It might sound wrong because it would make vote selling trivial, but it remains a powerful primitive that has interesting use cases.*
 
-## Decentralized voter list management
+# Decentralized voter list management
 
 Instead of one large credential authority (CA),
 multiple smaller CAs collaborate to generate the list of credentials.
@@ -66,7 +66,7 @@ flowchart TD
 
 It contrasts with Belenios, where the CA acts first, before the election is created.
 
-## Liquid democracy
+# Liquid democracy
 
 In liquid democracy voting systems, voters can choose to delegate their vote to the representative of their choice, or vote by themselves.
 
@@ -90,7 +90,7 @@ flowchart TD
     G[Gary] -- Private vote --> T
 ```
 
-## Trusted third party for lost credentials
+# Trusted third party for lost credentials
 
 In this case, a trusted third party, typically a Certificate Authority (CA) could regenerate credentials on behalf of a voter who has lost their public key.
 
