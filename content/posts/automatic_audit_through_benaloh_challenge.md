@@ -1,5 +1,5 @@
 +++
-title = 'Automatic Benaloh Challenge'
+title = 'Automated auditing using the Benaloh Challenge'
 date = 2024-10-24T15:17:09+02:00
 +++
 
