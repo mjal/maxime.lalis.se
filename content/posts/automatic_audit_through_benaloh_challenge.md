@@ -10,15 +10,12 @@ E-voting systems often require this two conflicting properties:
 The Benaloh Challenge is a theorical solution to this problem where the voter has either the choice to cast a ballot or to audit the voting machine.
 
 ```mermaid
----
-title: Benaloh Challenge
----
 flowchart TD
-    VM[Voting Machine] --> E1{Audit} --> Audit["`
+    VM{Benaloh Challenge} --> E1([Audit]) --> Audit["`
         Reveal randomness.
     `"]
     Audit --> Audit2[The voter checks if the vote corresponds to what they intended.]
-    VM --> E2{Cast} --> Cast["`
+    VM --> E2([Cast]) --> Cast["`
         Forget randomness.
     `"]
     Cast --> Cast2[The encrypted vote is recorded.]
