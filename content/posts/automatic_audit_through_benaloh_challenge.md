@@ -23,7 +23,7 @@ flowchart TD
 
 In theory voters should audit randomly and regularely. When auditing, they should select a candidate at random. In practice, few voters audit the machine. When auditing, it is very ununtuitive to select another candidate. This makes this solution poorly practical.
 
-We propose the use of a (user\_controlled) **audit device** when voting. The device would interface with the **voting machine** and to follow a theoretically sound protocol for auditing.
+We propose the use of a _user controlled_ **audit device** when voting. The device would interface with the **voting machine** and to follow a theoretically sound protocol for auditing.
 
 The protocol could be as followed:
 - The **audit device** would audit the **voting machine** N times (chosen at random) with random candidates. Every audit should pass.
