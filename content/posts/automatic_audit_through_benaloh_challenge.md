@@ -12,13 +12,13 @@ The Benaloh Challenge is a theorical solution to this problem where the voter ha
 ```mermaid
 flowchart TD
     VM{Benaloh Challenge} --> E1([Audit]) --> Audit["`
-        Reveal randomness.
+        Reveal randomness
     `"]
-    Audit --> Audit2[The voter checks if the vote corresponds to what they intended.]
+    Audit --> Audit2[The voter checks if the vote corresponds to what they intended]
     VM --> E2([Cast]) --> Cast["`
-        Forget randomness.
+        Forget randomness
     `"]
-    Cast --> Cast2[The encrypted vote is recorded.]
+    Cast --> Cast2[The encrypted vote is recorded]
 ```
 
 In theory voters should audit randomly and regularely. When auditing, they should select a candidate at random. In practice, few voters audit the machine. When auditing, it is very ununtuitive to select another candidate. This makes this solution poorly practical.
