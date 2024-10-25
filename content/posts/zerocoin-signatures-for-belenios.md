@@ -1,6 +1,7 @@
 +++
-title = 'One Out of Many Signatures for Belenios'
+title = 'Zerocoin signatures for Belenios'
 date = 2024-10-21T21:02:47+02:00
+draft = true
 +++
 
 [Cet article](https://eprint.iacr.org/2014/764) propose un "zerocoin scheme": c'est à dire un protocole de ring-signature, où chaque possesseur d'un jeton doit dévoiler une valeur _serial_ en même temps que sa signature. Chaque _serial_ **bound** son utilisateur à un jeton de signature sans dévoiler lequel.
