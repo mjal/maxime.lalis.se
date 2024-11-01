@@ -1,5 +1,5 @@
 +++
-title = 'Bitmessage'
+title = 'Protocole Bitmessage'
 date = 2024-10-03T12:53:27+02:00
 +++
 
