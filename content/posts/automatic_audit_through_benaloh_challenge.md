@@ -1,14 +1,13 @@
 +++
-title = 'Automated auditing using the Benaloh Challenge'
+title = 'Another device for sound auditing using the Benaloh Challenge'
 date = 2024-10-24T15:17:09+02:00
-draft = true
 +++
 
 E-voting systems often require this two conflicting properties:
-- Cast-as-intended: The voting device should be trusted
-- Receipt-freeness: The voting device should forget the randomness used during voting, preventing the voter from proving their vote to a coercer.
+- Cast-as-intended: The voting device should be trusted to accurately cast the voter's intended choice.
+- Receipt-freeness: The voting device should forget the randomness used during voting to prevent the voter from proving their vote to a coercer.
 
-The Benaloh Challenge is a theorical solution to this problem where the voter has either the choice to cast a ballot or to audit the voting machine.
+The Benaloh Challenge offers a theoretical solution to this problem, allowing voters to either cast a ballot or audit the voting machine.
 
 ```mermaid
 flowchart TD
@@ -22,12 +21,12 @@ flowchart TD
     Cast --> Cast2[The encrypted vote is recorded]
 ```
 
-In theory voters should audit randomly and regularely. When auditing, they should select a candidate at random. In practice, few voters audit the machine. When auditing, it is very ununtuitive to select another candidate. This makes this solution poorly practical.
+In theory voters should audit randomly and regularely, ideally by selecting a candidate at random. However, in practice, few voters perform audits, and selecting a unwanted candidate feels counterintuitive. This makes this solution poorly practical.
 
-We propose the use of a _user controlled_ **audit device**. The device would interface with the **voting machine** and to follow a theoretically sound protocol for auditing.
+To address these limitations, we propose a _user-controlled_ audit device that interfaces with the voting device and follows a theoretically sound protocol for auditing.
 
 The protocol could be as followed:
-- The **audit device** would audit the **voting machine** N times (chosen at random) with random candidates. Every audit should pass.
-- The N + 1 time, the voter would cast his ballot.
+- The **audit device** audit the **voting device** N times (N chosen at random) with random candidates. Every audit should pass.
+- The N + 1 time, the voter cast their ballot with the intended candidate.
 
-It would give us a probabilistic proof of cast-as-intended, while receipt-freeness still holds.
+This would give us a probabilistic proof for cast-as-intended, while receipt-freeness still holds.

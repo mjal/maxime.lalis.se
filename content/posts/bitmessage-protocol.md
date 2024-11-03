@@ -3,19 +3,21 @@ title = 'Protocole Bitmessage'
 date = 2024-10-03T12:53:27+02:00
 +++
 
-[Bitmessage](https://en.wikipedia.org/wiki/Bitmessage) est un logiciel de messagerie minimisant les métadonnées.
+[Bitmessage](https://en.wikipedia.org/wiki/Bitmessage) est un logiciel de messagerie sans métadonnées.
 
-Le protocole est simple, à défaut d'être scalable.
-- Les clés (symétriques) de chiffrement sont transmises sur d'autres canaux.
-- Les messages sont chiffrés et envoyés sur une base de donnée distribuée.
-- Pour chaque nouveau message du réseau, j'essaye toutes mes clés.
-- Si une clé de chiffrement fonctionne, alors c'est un message pour cette conversation.
+Le protocole est simple, à défaut d'être scalable. Il est uniquement basé sur le chiffrement symétrique.
+- Les clés de chiffrement sont transmises via d'autres canaux.
+- Les messages chiffrés sont envoyés sur une base de données distribuée.
+- Pour chaque nouveau message sur le réseau réseau, je test toutes mes clés.
+- Si je peux le déchiffrer, alors il m'est destiné.
 
-C'est un processus très peu efficace, mais qui a un avantage : réduire à leur minimum les métadonnées, comme les informations de source et destination.
+C’est un processus très peu efficace (surtout lorsqu’il y a beaucoup de messages ou qu’on a beaucoup de clés à essayer).
+
+En pratique, il existe des mécanismes pour éviter de saturer le réseau (une proof-of-work associée à chaque message), ce qui le rend tout de même utilisable.
+
+Il présente cependant un grand avantage : réduire au minimum (et très simplement) les métadonnées, comme les informations de source et de destination.
 
 ![schema de bitmessage](/bitmessage.jpg)
-
-En pratique, il y a des mécanisme pour éviter de flooder le réseau (une proof-of-work associé à chaque message).
 
 Je me pose néanmoins la question de la scalabilité de ce genre de protocoles (Peut-on faire mieux que de devoir vérifier tous les messages ?)
 
