@@ -18,35 +18,24 @@ you don’t really need content". Indeed, knowing who knows who is already
 valuable information, and can be enough to infer a lot of information,
 including political views or other sensitive information.
 
-<!-- strong vs weak attacker -->
-
-Someone sitting in the same coffeeshop doesn't have the same amount of metadata
-than the the platform (or the company hosting it).
-
-We now need to make a crucial distinction between strong and weak attackers.
-
 Someone sitting in the same coffeeshop, sharing the same wifi hotspot and
 looking at network traffic (he is a tech enthusiast) wouldn't be able to know
 more than "This person is using Signal (actively or not)". Which you can argue
 is already sensitive information, it already tells something about Alice. For
-that, you can use a VPN (but they're not silver bullets).
+that, you can use a VPN (but they're not silver bullets either).
 
-<!--
-TODO chaptgpt: Schema SVG de alice, mallory (with a deamon smiley, the wifi
-hotspot (internet smileys). You see Signal messages (the arrows become blue
-with a signal logo) going through the wifi hotspot, and we can see Mallory
-seeing them (also lighting up ?)
--->
+<!-- Schema SVG de alice, mallory (with a deamon smiley, the wifi hotspot
+(internet smileys). You see Signal messages (the arrows become blue with a
+signal logo) going through the wifi hotspot, and we can see Mallory seeing them
+(also lighting up ?) -->
 
 If you're communicating with someone also sharing the same wifi hotspot, he
 would also be able to know "This person is probably communicating with that
 person".
 
-<!--
-TODO chatgpt: Same schema. But Bob also use Signal, and receive Alice messages
-(through the wifi hotspot and back). Mallory can see both, and can infer that
-Alice is probably talking to Bob.
--->
+<!-- Same schema. But Bob also use Signal, and receive Alice messages (through
+the wifi hotspot and back). Mallory can see both, and can infer that Alice is
+probably talking to Bob. -->
 
 <!-- weak attacker knowledge
 
@@ -63,33 +52,27 @@ adoption, so it becomes the norm.
 
 <!-- strong attacker -->
 
-We are also considering stronger but realistic attackers, that can for example
-observe (or interfere) with a share of the network.
+But we also need to consider stronger attackers, including Signal themselve,
+the people hosting them (which would be Amazon in the case of Signal), people
+owning part of the internet infrastructure, or a even a collusion of such
+actors. We consider such powerful attacker in [provable
+security](https://en.wikipedia.org/wiki/Provable_security) 
 
-In the case of Signal, a strong attacker would be either someone working at
-Signal, or someone with good privileges working at the company hosting them
-(Amazon), or at a company controlling part of the internet infrastructure.
-
-<!-- how strong attacker work -->
+In the case of Signal, Message content's privacy is proven in such strong
+model, but for metadata, we don't really know.
 
 Such strong attacker can gain even more information either be passive
 observation (I see that when Alice is sending a message, Bob is receiving one).
 They can also actively interact to gain some information (If I block Bob, Alice
 is not receiving a read receipt).
 
-<!-- risk of becoming a massive surveillance tool -->
+<!-- Schema with DY attacker -->
 
-Such metadata gathering could even transform Signal in the very mass
-surveillance machinery it tries to circumvent.
+Yet, Signal is still an essential tool that we should use as much as possible,
+but please remember that it's not a silver bullet. Such metadata gathering
+could even transform Signal in the very mass surveillance machinery it tries to
+circumvent (the same argument can (loosely) be made for other encrypted
+messaging apps like Matrix or (even more strongly) for Telegram, Whatsapp...).
 
-<!-- elargissement à d'autres outils -->
-
-The same argument can be made to other encrypted messaging apps like Matrix or
-(even more strongly) to Telegram, Whatsapp, or Facebook messenger.
-
-<!-- concl. use it, but no silver bullet -->
-
-Signal is still an essential tool that we should use as much as possible, but
-please remember that it's not a silver bullet, it sometimes run on untrusted
-devices and software stacks, and has metadata leakage. One solution is
-[metadata-free communications](/posts/metadata-free-communications).
+What we really need is [metadata-free
+communications](/posts/metadata-free-communications).
