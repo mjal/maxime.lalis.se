@@ -5,8 +5,8 @@ date = 2025-06-19T00:00:00+02:00
 
 <!-- encryption -->
 
-Privacy matter. To have privacy on the internet, we usually rely on encryption.
-Signal is one of the best tool out there for end-to-end encrypted
+Privacy matters. To have privacy on the internet, we usually rely on
+encryption. Signal is one of the best tools out there for end-to-end encrypted
 communication. Yet encryption is not always enough. We also need to take good
 care of metadata.
 
