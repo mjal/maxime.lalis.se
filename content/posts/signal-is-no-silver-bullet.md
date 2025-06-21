@@ -6,35 +6,48 @@ date = 2025-06-19T00:00:00+02:00
 <!-- encryption -->
 
 Privacy is important. And for that, we rely on encryption. Signal is one of the
-best tools for that.
+best tools for that. But encryption is not always enough. We also need to take
+good care of metadata.
 
-<!-- encryption and metadata -->
-
-But encryption is not always enough. We also need to take good care of
-metadata.
-
-<!-- metadata -->
-
-What is metadata? Metadata is the context of your message. From whom to whom,
-when, with what device, what app, etc...
+What is **metadata**? Metadata is the context of your message. From whom to
+whom, when, with what device, which app, etc.
 
 Metadata is very important. Some even said that "if you have enough metadata
-you don’t really need content".
-
-<!-- why metadata is useful ? -->
-
-Indeed, knowing who knows who is already valuable information, and be enough to
-infer a lot of information, including political views, or any other sensitive
-information.
+you don’t really need content". Indeed, knowing who knows who is already
+valuable information, and can be enough to infer a lot of information,
+including political views or other sensitive information.
 
 <!-- strong vs weak attacker -->
 
+Someone sitting in the same coffeeshop doesn't have the same amount of metadata
+than the the platform (or the company hosting it).
+
 We now need to make a crucial distinction between strong and weak attackers.
 
-A weak attacker would be a tech enthusiast sitting in the same coffeeshop. He
-would be sharing the same wifi hotspot and looking at network traffic. 
+Someone sitting in the same coffeeshop, sharing the same wifi hotspot and
+looking at network traffic (he is a tech enthusiast) wouldn't be able to know
+more than "This person is using Signal (actively or not)". Which you can argue
+is already sensitive information, it already tells something about Alice. For
+that, you can use a VPN (but they're not silver bullets).
 
-<!-- weak attacker knowledge -->
+<!--
+TODO chaptgpt: Schema SVG de alice, mallory (with a deamon smiley, the wifi
+hotspot (internet smileys). You see Signal messages (the arrows become blue
+with a signal logo) going through the wifi hotspot, and we can see Mallory
+seeing them (also lighting up ?)
+-->
+
+If you're communicating with someone also sharing the same wifi hotspot, he
+would also be able to know "This person is probably communicating with that
+person".
+
+<!--
+TODO chatgpt: Same schema. But Bob also use Signal, and receive Alice messages
+(through the wifi hotspot and back). Mallory can see both, and can infer that
+Alice is probably talking to Bob.
+-->
+
+<!-- weak attacker knowledge
 
 He wouldn't be able to know more than "This person is using Signal actively or
 non-actively" (which is already a sensitive information). If you're
@@ -44,6 +57,8 @@ able to know "This person is probably communicating with that person".
 This is already a lot. In fact, how often you use Signal says a lot about you,
 because it tells a lot about your friends. But for that, we want even more
 adoption, so it becomes the norm.
+
+-->
 
 <!-- strong attacker -->
 
@@ -76,4 +91,4 @@ The same argument can be made to other encrypted messaging apps like Matrix or
 Signal is still an essential tool that we should use as much as possible, but
 please remember that it's not a silver bullet, it sometimes run on untrusted
 devices and software stacks, and has metadata leakage. One solution is
-[metadata-free communications](/metadata-free-communications).
+[metadata-free communications](/posts/metadata-free-communications).
