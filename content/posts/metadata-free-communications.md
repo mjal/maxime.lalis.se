@@ -15,8 +15,9 @@ Such tools also mask who you're talking to, when, how often, ... or if you're
 if you're actively communicating or not.
 
 We'll separate such tools in two models:
-- The cacophony model: Tools like [vuvuzela](https://vuvuzela.io/) that emits a
-  lot of data, but data is indistingushable from random values.
+- The cacophony model: Tools like [vuvuzela](https://vuvuzela.io/) or
+  [bitmessage](https://en.wikipedia.org/wiki/Bitmessage) that emits a lot of
+  data, but data is indistingushable from random values.
 
   We can categorize them in 3 modes:
   + Periodic pulses. Emit noise periodicly, in a round-based setting (e.g. 1
