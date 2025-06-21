@@ -5,9 +5,10 @@ date = 2025-06-19T00:00:00+02:00
 
 <!-- encryption -->
 
-Privacy is important. And for that, we rely on encryption. Signal is one of the
-best tools for that. But encryption is not always enough. We also need to take
-good care of metadata.
+Privacy matter. To have privacy on the internet, we usually rely on encryption.
+Signal is one of the best tool out there for end-to-end encrypted
+communication. Yet encryption is not always enough. We also need to take good
+care of metadata.
 
 What is **metadata**? Metadata is the context of your message. From whom to
 whom, when, with what device, which app, etc.
