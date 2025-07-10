@@ -1,7 +1,64 @@
 +++
-title = 'Signal is no silver bullet'
+itle = 'Signal is no silver bullet'
 date = 2025-06-19T00:00:00+02:00
 +++
+
+# Signal is no silver bullet
+
+## On privacy online
+
+<!-- introduction -->
+
+Most humans spend more than 40% of their waking life on the internet, using it
+for many things, including private matters.
+
+<!-- problématique -->
+
+But wait, how good is privacy online ?
+
+<!-- history -->
+
+Let's first have a quick look of internet history. At first, the internet was a
+friendly place, not so many people used it, so most things were open, and most
+communications happen in clear. Then, more people started using, including
+hackers. So we started to close access, and encrypt sensible communications.
+The internet was full of wizards and everything was fine. This is the web 1.0.
+
+![web1](/web1.jpg)
+
+But then, Muggles (people that did not knew how the internet worked) cames.
+Because they were not wizard, they were not able to host their own website
+(even more so email servers). Yet they needed to communicate. They had to uses
+_platforms_. This is the web 2.0.
+
+![web2](/web2.jpg)
+
+Shortly after the rise of the web 2.0, most of our private communications
+happens on platforms like Gmail or Whatsapp, most of our though are shared on
+platforms like Twitter or Reddit, most of our collaborative work happens on
+platforms such as Google doc, and most of our value is exchanged on platforms
+such as Amazon or Uber. This is also the age of the platforms.
+
+![age-of-platforms](/age-of-platforms.jpg)
+
+And all of this is fine for a while. Platforms are wonderful, they help people
+connect and let the economy grow. They even protect our communication. We hear
+Google's ["Don't be evil"](https://en.wikipedia.org/wiki/Don%27t_be_evil) and
+there is some "privacy lays" such as the
+[GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation). But
+we also entered the world of [Surveillance
+capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism) and [Data
+brokers](https://en.wikipedia.org/wiki/Data_broker) are everywhere.
+
+## End-to-end encryption
+
+E2E-E
+
+Platforms like Signal
+
+Let's imagine Alice wants to talk to Bob through platform Polo.
+
+## Original version
 
 <!-- encryption -->
 
