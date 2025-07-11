@@ -1,30 +1,36 @@
 +++
-itle = 'Signal is no silver bullet'
+title = 'Signal is no silver bullet'
 date = 2025-06-19T00:00:00+02:00
 +++
-
-# Signal is no silver bullet
-
-## On privacy online
 
 <!-- introduction -->
 
 Most humans spend more than 40% of their waking life on the internet, using it
-for many things, including private matters.
+for many things, including private matters. It that a good thing ? I don't
+know. But let's have look at how privacy works online.
 
-<!-- problématique -->
-
-But wait, how good is privacy online ?
 
 <!-- history -->
 
+## The early internet (web 1.0)
+
 Let's first have a quick look of internet history. At first, the internet was a
 friendly place, not so many people used it, so most things were open, and most
-communications happen in clear. Then, more people started using, including
-hackers. So we started to close access, and encrypt sensible communications.
-The internet was full of wizards and everything was fine. This is the web 1.0.
+communications happened in clear.
 
-![web1](/web1.jpg)
+![web1a](/web1a.svg)
+
+But then hacker came, they were able to do powerful attacks (such as
+Man-in-the-middle). Internet is no longer a safe place.
+
+![web1b](/web1b.svg)
+
+But the early internet was full of wizards. So we started encrypting sensible
+communications, and everything was fine again.
+
+![web1c](/web1c.svg)
+
+## The age of platforms (web 2.0)
 
 But then, Muggles (people that did not knew how the internet worked) cames.
 Because they were not wizard, they were not able to host their own website
@@ -52,11 +58,15 @@ brokers](https://en.wikipedia.org/wiki/Data_broker) are everywhere.
 
 ## End-to-end encryption
 
-E2E-E
+Alice wants to talk to Bob using a platform. Instead of encrypting her message
+to the platform, she can encrypt her message to Bob. This is called
+**end-to-end encryption**, and it's the way to hide your messages in the age of
+the platforms. The idea is simple: you encrypt your messages on _your device_
+and the messages are decrypted on your correspondent's device. This way, the
+platform only sees the encrypted message, revaling no information about the
+cleartext.
 
-Platforms like Signal
-
-Let's imagine Alice wants to talk to Bob through platform Polo.
+![e2ee](/e2ee.jpg)
 
 ## Original version
 

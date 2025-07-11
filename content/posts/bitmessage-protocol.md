@@ -1,6 +1,7 @@
 +++
 title = 'Protocole Bitmessage'
 date = 2024-10-03T12:53:27+02:00
+draft = true
 +++
 
 [Bitmessage](https://en.wikipedia.org/wiki/Bitmessage) est un logiciel de messagerie sans métadonnées.

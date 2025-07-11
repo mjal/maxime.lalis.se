@@ -1,6 +1,7 @@
 +++
 title = 'Another device for sound auditing using the Benaloh Challenge'
 date = 2024-10-24T15:17:09+02:00
+draft = true
 +++
 
 E-voting systems often require this two conflicting properties:
