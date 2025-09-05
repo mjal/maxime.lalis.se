@@ -6,44 +6,49 @@ date = 2025-06-19T00:00:00+02:00
 <!-- introduction -->
 
 Most humans spend more than 40% of their waking life on the internet, using it
-for many things, including private matters. It that a good thing ? I don't
-know. But let's have look at how privacy works online.
-
+for all kinds of tasks—even private ones. Let's dive into how private internet
+things really are.
 
 <!-- history -->
 
 ## The early internet (web 1.0)
 
 Let's first have a quick look of internet history. At first, the internet was a
-friendly place, not so many people used it, so most things were open, and most
-communications happened in clear.
+friendly place and most communications happened in clear.
 
 ![web1a](/web1a.svg)
 
-But then hacker came, they were able to do powerful attacks (such as
-Man-in-the-middle). Internet is no longer a safe place.
+But then hackers came, they were able to listen to our communication or even do
+powerful tricks such as [man-in-the-middle attacks
+(MITM)](https://en.wikipedia.org/wiki/Man-in-the-middle_attack), allowing them
+to intercept, block and inject messages, impersoning Alice or Bob. Internet was
+no longer a safe place.
 
 ![web1b](/web1b.svg)
 
-But the early internet was full of wizards. So we started encrypting sensible
-communications, and everything was fine again.
+But internet was full of wizards. They soon had developed cryptographic
+protocols such as [SSH](https://en.wikipedia.org/wiki/Secure_Shell),
+[SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) and
+[PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy), allowing them to be
+much safer against such attackers.
 
 ![web1c](/web1c.svg)
+
+Everything was fine again.
 
 ## The age of platforms (web 2.0)
 
 But then, Muggles (people that did not knew how the internet worked) cames.
 Because they were not wizard, they were not able to host their own website
 (even more so email servers). Yet they needed to communicate. They had to uses
-_platforms_. This is the web 2.0.
+_platforms_. This is what we call the web 2.0.
 
-![web2](/web2.jpg)
+![web2](/web2.svg)
 
 Shortly after the rise of the web 2.0, most of our private communications
 happens on platforms like Gmail or Whatsapp, most of our though are shared on
-platforms like Twitter or Reddit, most of our collaborative work happens on
-platforms such as Google doc, and most of our value is exchanged on platforms
-such as Amazon or Uber. This is also the age of the platforms.
+Twitter or Reddit, and most of our value is exchanged on platforms such as
+Amazon or Uber.
 
 ![age-of-platforms](/age-of-platforms.jpg)
 
@@ -53,7 +58,7 @@ Google's ["Don't be evil"](https://en.wikipedia.org/wiki/Don%27t_be_evil) and
 there is some "privacy lays" such as the
 [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation). But
 we also entered the world of [Surveillance
-capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism) and [Data
+capitalism](https://en.wikipedia.org/wiki/Surveillance_capitalism) and [data
 brokers](https://en.wikipedia.org/wiki/Data_broker) are everywhere.
 
 ## End-to-end encryption
