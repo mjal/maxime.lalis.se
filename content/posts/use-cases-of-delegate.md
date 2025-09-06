@@ -1,7 +1,6 @@
 +++
 title = 'Use cases of a Delegate primitive in e-voting'
 date = 2024-10-17T17:09:00+02:00
-draft = true
 +++
 
 # Proxy voting

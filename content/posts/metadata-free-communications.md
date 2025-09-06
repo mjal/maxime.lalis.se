@@ -1,16 +1,14 @@
 +++
 title = 'Metadata-free communications'
 date = 2025-06-21T00:00:00+02:00
-draft = true
 +++
 
 Some of us can been profondly discriminated against due to their identity
 (racial, gender, ...) or solely due to political views. This is especially
 worrysome in the age of surveillance capitalism.
 
-People shoud use it encryption, but [Signal is no silver
-bullet](/signal-is-no-silver-bullet). We can do better with **metadata-free
-communication tools**:
+People shoud use it encryption, but Signal is no silver bullet. We can do
+better with **metadata-free communication tools**:
 
 Such tools also mask who you're talking to, when, how often, ... or if you're
 if you're actively communicating or not.

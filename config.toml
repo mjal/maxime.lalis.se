@@ -9,7 +9,8 @@ theme = "cactus"
   mainSection = "posts"
   mainSectionTitle = "Blog"
   showAllPostsOnHomePage = true
-  # description = "Hello world ! I'm currently working on my [master thesis](/memoire)."
+  description = "Indie developper. My main interests are online privacy and e-voting."
+#
 
 [[menu.main]]
 name = "Posts"
