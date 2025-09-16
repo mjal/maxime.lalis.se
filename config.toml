@@ -28,7 +28,7 @@ weight = 3
 
 [[menu.main]]
 name = "cv"
-url = "/cv.pdf"
+url = "/Resume_Maxime_Lalisse.pdf"
 weight = 4
 
 [[deployment.targets]]
