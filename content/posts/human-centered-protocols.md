@@ -1,6 +1,7 @@
 +++
 title = 'Human centered protocols'
 date = 2025-06-15T00:16:51+02:00
+draft = true
 +++
 
 We need <span class="orange">human-centered protocols</span> for all our
